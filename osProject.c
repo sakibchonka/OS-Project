@@ -5,8 +5,8 @@
 #include<time.h>
 #include<pthread.h>
 #include<semaphore.h>
-#define max_cust 10               //max no. of customers threads.
-#define max_chair 10              //max no. of chairs threads.
+#define max_cust 20               //max no. of customers threads.
+#define max_chair 20              //max no. of chairs threads.
 void *customer(void *n);          //function prototypes
 void *barber(void *);
 void wait(int sec);
